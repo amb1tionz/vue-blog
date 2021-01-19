@@ -1,24 +1,22 @@
-# vue-blog
+# Blog Project - Vue 3 + Firebase
 
-## Project setup
-```
-npm install
-```
+The blog is created with Vue 3 using the new **Composition API**, using the **Cloud Firestore** by **Google Firebase** for DB.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Installation
+The blog requires [Node.js](https://nodejs.org/) v4+ to run.
 
-### Compiles and minifies for production
+### Run
+```sh
+$ npm run serve
 ```
-npm run build
-```
+The **Firebase** connection is already set up.
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Todos
+ - Add Firebase Authentication
+ - Host the project
+ - Complete the CRUD functionality
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+License
+----
+
+MIT
